@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter Notebooks - save outputs elsewhere; keep only source + rendered copy
+.ipynb_checkpoints/
+
+# Data - Kaggle competition rules prohibit public redistribution of the data,
+# so the raw files are NOT committed. Download them into data/ (see README.md).
+data/
+derived/
+processed/
+
+# Secrets / credentials
+.env
+*.key
+*.pem
+*.p12
+credentials*
+secrets.*
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Outputs (submission, logs, temp)
+outputs/
+*.log
+*.tmp
+
+# Word / Office temp files
+~$*
